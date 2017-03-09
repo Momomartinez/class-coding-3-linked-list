@@ -1,0 +1,4 @@
+C:\Users\Junior\.CLion2016.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug
