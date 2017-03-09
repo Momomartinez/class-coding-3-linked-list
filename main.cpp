@@ -16,7 +16,8 @@ struct Node {
  * @param n - data that the first element should hold
  */
 void initNode(struct Node *head, int n) {
-  //TODO: Initiliaze the node data to n and the next pointer to..?
+    head->data = n;
+    head->next = nullptr;
 }
 
 /**
@@ -25,7 +26,9 @@ void initNode(struct Node *head, int n) {
  * @param n - data that the new node should hold
  */
 void addNode(struct Node *head, int n) {
-  //TODO - Implement this function.
+    Node *p = head;
+    p->next = head;
+    p->data = n;
 }
 
 /**
@@ -42,7 +45,7 @@ void insertFront(struct Node **head, int n) {
  * @param head  - pointer to the head of the list
  */
 void display(struct Node *head) {
-  //TODO
+
 }
 
 /**
@@ -130,13 +133,13 @@ int main() {
   struct Node *newHead;
   struct Node *head = new Node;
 
-  /*
+
   initNode(head,10);
   display(head);
 
   addNode(head,20);
   display(head);
-
+/*
   addNode(head,30);
   display(head);
 
