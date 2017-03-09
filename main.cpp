@@ -17,6 +17,8 @@ struct Node {
  */
 void initNode(struct Node *head, int n) {
   //TODO: Initiliaze the node data to n and the next pointer to..?
+  head->data = n;
+  head->next = nullptr;
 }
 
 /**
@@ -26,6 +28,17 @@ void initNode(struct Node *head, int n) {
  */
 void addNode(struct Node *head, int n) {
   //TODO - Implement this function.
+  Node *newHead = new Node();
+  newHead -> *next(n);
+  newHead->
+  head=newHead;
+  n++;
+
+
+
+  }
+
+
 }
 
 /**
@@ -35,6 +48,10 @@ void addNode(struct Node *head, int n) {
  */
 void insertFront(struct Node **head, int n) {
   //TODO
+  Node *current = head;
+  while(current != nullptr){
+    cout<<current->
+  }
 }
 
 /**
@@ -129,12 +146,14 @@ void deleteLinkedList(struct Node **node) {
 int main() {
   struct Node *newHead;
   struct Node *head = new Node;
-
-  /*
+  
   initNode(head,10);
   display(head);
 
-  addNode(head,20);
+
+  /*
+
+  addNode(head,20);lo
   display(head);
 
   addNode(head,30);
