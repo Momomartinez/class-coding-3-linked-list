@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 /usr/bin/c++    -std=c++11 -g   CMakeFiles/simpleLinkedList.dir/main.cpp.o  -o simpleLinkedList -rdynamic 
+=======
+<<<<<<< HEAD
+/usr/bin/c++.exe   -std=gnu++11 -g  -Wl,--enable-auto-import CMakeFiles/simpleLinkedList.dir/main.cpp.o  -o simpleLinkedList.exe -Wl,--out-implib,libsimpleLinkedList.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+=======
+/usr/bin/c++    -std=c++11 -g   CMakeFiles/simpleLinkedList.dir/main.cpp.o  -o simpleLinkedList -rdynamic 
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9

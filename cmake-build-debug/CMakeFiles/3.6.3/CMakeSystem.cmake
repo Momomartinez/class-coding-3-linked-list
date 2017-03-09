@@ -1,13 +1,37 @@
+<<<<<<< HEAD
 set(CMAKE_HOST_SYSTEM "Linux-4.4.0-64-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "4.4.0-64-generic")
+=======
+<<<<<<< HEAD
+set(CMAKE_HOST_SYSTEM "CYGWIN-2.7.0(0.306/5/3)")
+set(CMAKE_HOST_SYSTEM_NAME "CYGWIN")
+set(CMAKE_HOST_SYSTEM_VERSION "2.7.0(0.306/5/3)")
+=======
+set(CMAKE_HOST_SYSTEM "Linux-4.4.0-53-generic")
+set(CMAKE_HOST_SYSTEM_NAME "Linux")
+set(CMAKE_HOST_SYSTEM_VERSION "4.4.0-53-generic")
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 
 
+<<<<<<< HEAD
 set(CMAKE_SYSTEM "Linux-4.4.0-64-generic")
 set(CMAKE_SYSTEM_NAME "Linux")
 set(CMAKE_SYSTEM_VERSION "4.4.0-64-generic")
+=======
+<<<<<<< HEAD
+set(CMAKE_SYSTEM "CYGWIN-2.7.0(0.306/5/3)")
+set(CMAKE_SYSTEM_NAME "CYGWIN")
+set(CMAKE_SYSTEM_VERSION "2.7.0(0.306/5/3)")
+=======
+set(CMAKE_SYSTEM "Linux-4.4.0-53-generic")
+set(CMAKE_SYSTEM_NAME "Linux")
+set(CMAKE_SYSTEM_VERSION "4.4.0-53-generic")
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9
 set(CMAKE_SYSTEM_PROCESSOR "x86_64")
 
 set(CMAKE_CROSSCOMPILING "FALSE")

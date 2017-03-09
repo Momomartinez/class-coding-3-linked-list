@@ -16,10 +16,25 @@ struct Node {
  * @param n - data that the first element should hold
  */
 void initNode(struct Node *head, int n) {
+<<<<<<< HEAD
   head ->data =n;
   head ->next = nullptr;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  head->data = n;
+  head->data = nullptr;
+=======
+    head->data = n;
+    head->next = nullptr;
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
+=======
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9
   //TODO: Initiliaze the node data to n and the next pointer to..?
+  head->data = n;
+  head->next = nullptr;
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 }
 
 /**
@@ -28,6 +43,7 @@ void initNode(struct Node *head, int n) {
  * @param n - data that the new node should hold
  */
 void addNode(struct Node *head, int n) {
+<<<<<<< HEAD
 
   Node *newnode = new Node;
   newNode ->data =n;
@@ -48,7 +64,30 @@ void addNode(struct Node *head, int n) {
   new
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  Node*p= head;
+=======
+    Node *p = head;
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
+    p->next = head;
+    p->data = n;
+=======
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9
   //TODO - Implement this function.
+  Node *newHead = new Node();
+  newHead -> *next(n);
+  newHead->
+  head=newHead;
+  n++;
+
+
+
+  }
+
+
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 }
 
 /**
@@ -58,6 +97,10 @@ void addNode(struct Node *head, int n) {
  */
 void insertFront(struct Node **head, int n) {
   //TODO
+  Node *current = head;
+  while(current != nullptr){
+    cout<<current->
+  }
 }
 
 /**
@@ -65,6 +108,7 @@ void insertFront(struct Node **head, int n) {
  * @param head  - pointer to the head of the list
  */
 void display(struct Node *head) {
+<<<<<<< HEAD
   //TODO
 
   Node *current =head;
@@ -73,6 +117,17 @@ void display(struct Node *head) {
     cout << current -> data << endl;
     current = current ->next;
   }
+=======
+<<<<<<< HEAD
+  Node *current = head;
+  while(current != nullptr){
+    cout << current->data << endl;
+    current = current -> next;
+  }
+=======
+
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9
 }
 
 /**
@@ -159,14 +214,29 @@ void deleteLinkedList(struct Node **node) {
 int main() {
   struct Node *newHead;
   struct Node *head = new Node;
+<<<<<<< HEAD
 
 
+<<<<<<< HEAD
   initNode(head,10);
   display(head);
 
  /* addNode(head,20);
   display(head);
+=======
+=======
+  
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
+  initNode(head,10);
+  display(head);
 
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9
+
+  /*
+
+  addNode(head,20);lo
+  display(head);
+/*
   addNode(head,30);
   display(head);
 
@@ -219,6 +289,6 @@ int main() {
   cout << "Deleting the copied list\n";
   deleteLinkedList(&newHead);
   display(newHead);
-   */
+
   return 0;
 }

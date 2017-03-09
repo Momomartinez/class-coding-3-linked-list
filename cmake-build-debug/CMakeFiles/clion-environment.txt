@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 CMake: 3.6.3@/home/wagner/clion-2016.3.3/bin/cmake/bin/cmake
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+CMake: 3.5.2@/usr/bin/cmake
+=======
+ToolSet: 2.7.0@C:\cygwin64
+CMake: 3.6.3@C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake_cygwin\bin\cmake.exe
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
+=======
+CMake: 3.6.3@/opt/clion-2016.3.2/bin/cmake/bin/cmake
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9

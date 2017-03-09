@@ -1,4 +1,21 @@
+<<<<<<< HEAD
 /home/wagner/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/wagner/class-coding-3-linked-list
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/andrei/Desktop/CSC340/class-coding-3-linked-list
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug
+=======
+C:\Users\Junior\.CLion2016.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
+=======
+/opt/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mmm/class-coding-3-linked-list
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +32,9 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
+<<<<<<< HEAD
 -- Build files have been written to: /home/wagner/class-coding-3-linked-list/cmake-build-debug
+=======
+-- Build files have been written to: /home/mmm/class-coding-3-linked-list/cmake-build-debug
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
+>>>>>>> 4bfa1739c68b0cd7fd4eb30dd89f2cf40d1518c9
