@@ -39,19 +39,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /cygdrive/c/Users/Junior/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
 RM = /cygdrive/c/Users/Junior/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+=======
+CMAKE_COMMAND = /opt/clion-2016.3.2/bin/cmake/bin/cmake
+
+# The command to remove a file.
+RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /home/mmm/class-coding-3-linked-list
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mmm/class-coding-3-linked-list/cmake-build-debug
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +73,11 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+<<<<<<< HEAD
 	/cygdrive/c/Users/Junior/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+	/opt/clion-2016.3.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +88,11 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/cygdrive/c/Users/Junior/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/opt/clion-2016.3.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +102,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mmm/class-coding-3-linked-list/cmake-build-debug/CMakeFiles /home/mmm/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mmm/class-coding-3-linked-list/cmake-build-debug/CMakeFiles 0
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 .PHONY : all
 
 # The main clean target
