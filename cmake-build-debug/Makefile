@@ -44,10 +44,17 @@ SHELL = /bin/sh
 
 # The CMake executable.
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
+=======
+CMAKE_COMMAND = /cygdrive/c/Users/Junior/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe
+
+# The command to remove a file.
+RM = /cygdrive/c/Users/Junior/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
 =======
 CMAKE_COMMAND = /opt/clion-2016.3.2/bin/cmake/bin/cmake
 
@@ -60,10 +67,17 @@ EQUALS = =
 
 # The top-level source directory on which CMake was run.
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/andrei/Desktop/CSC340/class-coding-3-linked-list
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
 =======
 CMAKE_SOURCE_DIR = /home/mmm/class-coding-3-linked-list
 
@@ -78,7 +92,11 @@ CMAKE_BINARY_DIR = /home/mmm/class-coding-3-linked-list/cmake-build-debug
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+	/cygdrive/c/Users/Junior/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
 =======
 	/opt/clion-2016.3.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 >>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
@@ -93,7 +111,11 @@ edit_cache/fast: edit_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/cygdrive/c/Users/Junior/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
 =======
 	/opt/clion-2016.3.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 >>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
@@ -107,9 +129,15 @@ rebuild_cache/fast: rebuild_cache
 # The main all target
 all: cmake_check_build_system
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles 0
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
 =======
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mmm/class-coding-3-linked-list/cmake-build-debug/CMakeFiles /home/mmm/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all

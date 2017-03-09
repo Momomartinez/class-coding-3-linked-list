@@ -1,8 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/andrei/Desktop/CSC340/class-coding-3-linked-list
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug
+=======
+C:\Users\Junior\.CLion2016.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
 =======
 /opt/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mmm/class-coding-3-linked-list
 -- The C compiler identification is GNU 5.4.0

@@ -17,8 +17,13 @@ struct Node {
  */
 void initNode(struct Node *head, int n) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   head->data = n;
   head->data = nullptr;
+=======
+    head->data = n;
+    head->next = nullptr;
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
 =======
   //TODO: Initiliaze the node data to n and the next pointer to..?
   head->data = n;
@@ -33,7 +38,11 @@ void initNode(struct Node *head, int n) {
  */
 void addNode(struct Node *head, int n) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   Node*p= head;
+=======
+    Node *p = head;
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
     p->next = head;
     p->data = n;
 =======
@@ -70,11 +79,15 @@ void insertFront(struct Node **head, int n) {
  * @param head  - pointer to the head of the list
  */
 void display(struct Node *head) {
+<<<<<<< HEAD
   Node *current = head;
   while(current != nullptr){
     cout << current->data << endl;
     current = current -> next;
   }
+=======
+
+>>>>>>> a1b61413a396abc6713ebf40f3ef20f00dd1cc61
 }
 
 /**
@@ -175,7 +188,7 @@ int main() {
 
   addNode(head,20);lo
   display(head);
-
+/*
   addNode(head,30);
   display(head);
 

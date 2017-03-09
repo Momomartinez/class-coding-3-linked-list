@@ -103,6 +103,40 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
+				<Option working_dir="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleLinkedList">
+				<Option output="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/simpleLinkedList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug"/>
+=======
 				<Option working_dir="/home/mmm/class-coding-3-linked-list/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -135,10 +169,30 @@
 			<Target title="simpleLinkedList">
 				<Option output="/home/mmm/class-coding-3-linked-list/cmake-build-debug/simpleLinkedList" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/mmm/class-coding-3-linked-list/cmake-build-debug"/>
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleLinkedList"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleLinkedList/fast">
+				<Option output="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/simpleLinkedList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug"/>
+=======
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -158,10 +212,32 @@
 			<Target title="simpleLinkedList/fast">
 				<Option output="/home/mmm/class-coding-3-linked-list/cmake-build-debug/simpleLinkedList" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/mmm/class-coding-3-linked-list/cmake-build-debug"/>
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleLinkedList/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/main.cpp">
+			<Option target="simpleLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Junior/Desktop/csc340/class-coding-3-linked-list/CMakeLists.txt">
+=======
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -183,6 +259,7 @@
 			<Option target="simpleLinkedList"/>
 		</Unit>
 		<Unit filename="/home/mmm/class-coding-3-linked-list/CMakeLists.txt">
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
