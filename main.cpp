@@ -16,8 +16,14 @@ struct Node {
  * @param n - data that the first element should hold
  */
 void initNode(struct Node *head, int n) {
+<<<<<<< HEAD
   head->data = n;
   head->data = nullptr;
+=======
+  //TODO: Initiliaze the node data to n and the next pointer to..?
+  head->data = n;
+  head->next = nullptr;
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 }
 
 /**
@@ -26,9 +32,24 @@ void initNode(struct Node *head, int n) {
  * @param n - data that the new node should hold
  */
 void addNode(struct Node *head, int n) {
+<<<<<<< HEAD
   Node*p= head;
     p->next = head;
     p->data = n;
+=======
+  //TODO - Implement this function.
+  Node *newHead = new Node();
+  newHead -> *next(n);
+  newHead->
+  head=newHead;
+  n++;
+
+
+
+  }
+
+
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 }
 
 /**
@@ -38,6 +59,10 @@ void addNode(struct Node *head, int n) {
  */
 void insertFront(struct Node **head, int n) {
   //TODO
+  Node *current = head;
+  while(current != nullptr){
+    cout<<current->
+  }
 }
 
 /**
@@ -136,12 +161,19 @@ void deleteLinkedList(struct Node **node) {
 int main() {
   struct Node *newHead;
   struct Node *head = new Node;
+<<<<<<< HEAD
 
 
+=======
+  
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
   initNode(head,10);
   display(head);
 
-  addNode(head,20);
+
+  /*
+
+  addNode(head,20);lo
   display(head);
 
   addNode(head,30);

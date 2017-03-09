@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 CMake: 3.5.2@/usr/bin/cmake
+=======
+CMake: 3.6.3@/opt/clion-2016.3.2/bin/cmake/bin/cmake
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09

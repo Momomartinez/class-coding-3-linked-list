@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/andrei/Desktop/CSC340/class-coding-3-linked-list
+=======
+# Install script for directory: /home/mmm/class-coding-3-linked-list
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +44,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/mmm/class-coding-3-linked-list/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

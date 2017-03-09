@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/andrei/Desktop/CSC340/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/simpleLinkedList.dir
+=======
+/home/mmm/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mmm/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mmm/class-coding-3-linked-list/cmake-build-debug/CMakeFiles/simpleLinkedList.dir
+>>>>>>> c74df4f6237f18ff8dcf8425734ed3940228ad09
