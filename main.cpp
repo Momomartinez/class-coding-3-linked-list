@@ -18,7 +18,8 @@ struct Node {
  * @param n - data that the first element should hold
  */
 void initNode(struct Node *head, int n) {
-    //TODO: Initiliaze the node data to n and the next pointer to..?
+
+    //TODO: Initiliaze the node data to n and the next pointer to nullptr.
     head->data = n;
     head->next = nullptr;
 }
@@ -29,6 +30,7 @@ void initNode(struct Node *head, int n) {
  * @param n - data that the new node should hold
  */
 void addNode(struct Node *head, int n) {
+
     //TODO - Implement this function.
     Node *t_head = head;
     //1) find end of list
@@ -41,6 +43,7 @@ void addNode(struct Node *head, int n) {
     newNode->data = n;
     //3) add new node to end of list
     t_head->next = newNode;
+
 }
 
 /**
@@ -69,7 +72,6 @@ void display(struct Node *head) {
 
 
     }
-
 }
 
 /**
@@ -175,67 +177,58 @@ void deleteLinkedList(struct Node **node) {
     }
 }
 
-int main() {
-    struct Node *newHead;
-    struct Node *head = new Node;
-    initNode(head, 7);
-    //display(head);
+    int main() {
+        struct Node *newHead;
+        struct Node *head = new Node;
 
-    addNode(head, 20);
-    //display(head);
 
-    addNode(head, 30);
-    //display(head);
-    //cout<<endl;
-    insertFront(&head, 5);
-    //display(head);
+        initNode(head, 10);
+        display(head);
+        addNode(head, 20);
+        display(head);
+        addNode(head, 30);
+        display(head);
+        addNode(head, 35);
+        display(head);
+        addNode(head, 40);
+        display(head);
+        insertFront(&head, 5);
+        display(head);
+        int numDel = 5;
+        Node *ptrDelete = searchNode(head, numDel);
+        if (deleteNode(&head, ptrDelete))
+            cout << "Node " << numDel << " deleted!\n";
+        display(head);
+        cout << "The list is reversed\n";
+        reverse(&head);
+        display(head);
+        cout << "The list is copied\n";
+        copyLinkedList(head, &newHead);
+        display(newHead);
+        cout << "Comparing the two lists...\n";
+        cout << "Are the two lists same?\n";
+        if (compareLinkedList(head, newHead))
+            cout << "Yes, they are same!\n";
+        else
+            cout << "No, they are different!\n";
+        cout << endl;
+        numDel = 35;
+        ptrDelete = searchNode(newHead, numDel);
+        if (deleteNode(&newHead, ptrDelete)) {
+            cout << "Node " << numDel << " deleted!\n";
+            cout << "The new list after the delete is\n";
+            display(newHead);
+        }
+        cout << "Comparing the two lists again...\n";
+        cout << "Are the two lists same?\n";
+        if (compareLinkedList(head, newHead))
+            cout << "Yes, they are same!\n";
+        else
+            cout << "No, they are different!\n";
+        cout << endl;
+        cout << "Deleting the copied list\n";
+        deleteLinkedList(&newHead);
+        display(newHead);
 
-    addNode(head, 35);
-    //display(head);
-
-    addNode(head, 40);
-    //display(head);
-    display(head);
-    int numDel = 40;
-    Node *ptrDelete = searchNode(head, numDel);
-    if (deleteNode(&head, ptrDelete))
-        cout << "Node " << numDel << " deleted!\n";
-    display(head);
-/*
-  cout << "The list is reversed\n";
-  reverse(&head);
-  display(head);
-
-  cout << "The list is copied\n";
-  copyLinkedList(head,&newHead);
-  display(newHead);
-
-  cout << "Comparing the two lists...\n";
-  cout << "Are the two lists same?\n";
-  if(compareLinkedList(head,newHead))
-      cout << "Yes, they are same!\n";
-  else
-      cout << "No, they are different!\n";
-  cout << endl;
-
-  numDel = 35;
-  ptrDelete = searchNode(newHead,numDel);
-  if(deleteNode(&newHead,ptrDelete)) {
-      cout << "Node "<< numDel << " deleted!\n";
-      cout << "The new list after the delete is\n";
-      display(newHead);
-  }
-  cout << "Comparing the two lists again...\n";
-  cout << "Are the two lists same?\n";
-  if(compareLinkedList(head,newHead))
-      cout << "Yes, they are same!\n";
-  else
-      cout << "No, they are different!\n";
-
-  cout << endl;
-  cout << "Deleting the copied list\n";
-  deleteLinkedList(&newHead);
-  display(newHead);
-*/
-    return 0;
-}
+        return 0;
+    }
